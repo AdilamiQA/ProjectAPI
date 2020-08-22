@@ -221,8 +221,7 @@ public class test extends BaseTest{
 	
 	@Test(description= "Automate post method for users")
 	public static void putmethodjson() throws IOException, ParseException {
-		ExtentReport.extentlog = ExtentReport.extentreport.startTest("Execute post method",
-				" validate post method");
+		
 		FileInputStream file = new FileInputStream(new File (System.getProperty("user.dir")+"\\Resources\\TestData\\testdata.json"));
 		
 		Response resp = given().header(ReadTestData.getTestData("headertypeContent"),ReadTestData.getTestData("contenttypeValue")).
