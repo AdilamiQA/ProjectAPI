@@ -164,7 +164,8 @@ public class test extends BaseTest{
 	
 	@Test(description="Verify email for User with id=2")
 	public void verifyEmailUIDheaders() {
-		
+		ExtentReport.extentlog = ExtentReport.extentreport.startTest("Execute post method",
+				" validate post method");
 		Response resp = given().pathParam("raceSeason", "2018").header("Content-Type","application/json").
 				when().get("http://ergast.com/api/f1/{raceSeason}/circuits.json");
 		assertEquals(resp.path("MRData.total"),"21");
@@ -204,8 +205,6 @@ public class test extends BaseTest{
 	
 	@Test(description= "Automate post method for users")
 	public static void postmethodjson() throws IOException, ParseException {
-		ExtentReport.extentlog = ExtentReport.extentreport.startTest("Execute post method",
-				" validate post method");
 		FileInputStream file = new FileInputStream(new File (System.getProperty("user.dir")+"\\Resources\\TestData\\testdata.json"));
 		
 		Response resp = given().header(ReadTestData.getTestData("headertypeContent"),ReadTestData.getTestData("contenttypeValue")).
