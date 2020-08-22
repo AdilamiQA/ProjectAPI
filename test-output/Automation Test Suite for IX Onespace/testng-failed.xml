@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Automation Test Suite for IX Onespace]">
+  <listeners>
+    <listener class-name="com.automation.api.Util.RetryListener"/>
+  </listeners>
+  <test name="Automation Test Cases(failed)">
+    <classes>
+      <class name="apitest.test">
+        <methods>
+          <include name="verifyEmailUID"/>
+        </methods>
+      </class> <!-- apitest.test -->
+    </classes>
+  </test> <!-- Automation Test Cases(failed) -->
+</suite> <!-- Failed suite [Automation Test Suite for IX Onespace] -->

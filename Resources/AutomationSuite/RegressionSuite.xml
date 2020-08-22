@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Test Suite for SmokeTest">
+	<test name="Regression1">
+  		<groups>
+    		<run>
+      			<exclude name="brokenTests"  />
+      			<include name="RegressionSuite"  />
+    		</run>
+  		</groups>
+    </test>
+</suite>

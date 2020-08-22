@@ -1,0 +1,8 @@
+{
+"uri":"https://reqres.in/api/users",
+"encodingType":"UTF-8",
+"expectedJob":"leader",
+"contenttypeValue":"application/json",
+"headertypeContent":"Content-Type",
+"putUserUri":"https://reqres.in/api/users/2"
+}
