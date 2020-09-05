@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="11" total="12" passed="1">
+<testng-results skipped="0" failed="0" ignored="12" total="13" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2982" started-at="2020-08-19T13:21:44Z" finished-at="2020-08-19T13:21:47Z">
+  <suite name="Default suite" duration-ms="6089" started-at="2020-09-04T14:41:15Z" finished-at="2020-09-04T14:41:21Z">
     <groups>
-      <group name="SmokeSuite">
-        <method signature="test.verifyGetUserStatusCode()[pri:0, instance:apitest.test@4f970963]" name="verifyGetUserStatusCode" class="apitest.test"/>
-      </group> <!-- SmokeSuite -->
     </groups>
-    <test name="Default test" duration-ms="2982" started-at="2020-08-19T13:21:44Z" finished-at="2020-08-19T13:21:47Z">
+    <test name="Default test" duration-ms="6089" started-at="2020-09-04T14:41:15Z" finished-at="2020-09-04T14:41:21Z">
       <class name="apitest.test">
-        <test-method status="PASS" signature="config(java.lang.String, java.lang.String)[pri:0, instance:apitest.test@4f970963]" name="config" is-config="true" duration-ms="164" started-at="2020-08-19T18:51:44Z" finished-at="2020-08-19T18:51:44Z">
+        <test-method status="PASS" signature="config(java.lang.String, java.lang.String)[pri:0, instance:apitest.test@6a41eaa2]" name="config" is-config="true" duration-ms="500" started-at="2020-09-04T10:41:14Z" finished-at="2020-09-04T10:41:15Z">
           <params>
             <param index="0">
               <value>
@@ -26,26 +23,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- config -->
-        <test-method status="PASS" signature="LogBeforeMethod()[pri:0, instance:apitest.test@4f970963]" name="LogBeforeMethod" is-config="true" duration-ms="4" started-at="2020-08-19T18:51:44Z" finished-at="2020-08-19T18:51:44Z">
+        <test-method status="PASS" signature="LogBeforeMethod()[pri:0, instance:apitest.test@6a41eaa2]" name="LogBeforeMethod" is-config="true" duration-ms="6" started-at="2020-09-04T10:41:15Z" finished-at="2020-09-04T10:41:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogBeforeMethod -->
-        <test-method status="PASS" signature="verifyGetUserStatusCode()[pri:0, instance:apitest.test@4f970963]" name="verifyGetUserStatusCode" duration-ms="2960" started-at="2020-08-19T18:51:44Z" description="Validate 404 status code - GET API" finished-at="2020-08-19T18:51:47Z">
+        <test-method status="PASS" signature="postmethodjson()[pri:0, instance:apitest.test@6a41eaa2]" name="postmethodjson" duration-ms="6022" started-at="2020-09-04T10:41:15Z" description="Automate post method for users" finished-at="2020-09-04T10:41:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyGetUserStatusCode -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:apitest.test@4f970963]" name="getResult" is-config="true" duration-ms="2" started-at="2020-08-19T18:51:47Z" finished-at="2020-08-19T18:51:47Z">
+        </test-method> <!-- postmethodjson -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:apitest.test@6a41eaa2]" name="getResult" is-config="true" duration-ms="19" started-at="2020-09-04T10:41:21Z" finished-at="2020-09-04T10:41:21Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyGetUserStatusCode status=SUCCESS method=test.verifyGetUserStatusCode()[pri:0, instance:apitest.test@4f970963] output={null}]]]>
+                <![CDATA[[TestResult name=postmethodjson status=SUCCESS method=test.postmethodjson()[pri:0, instance:apitest.test@6a41eaa2] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:apitest.test@4f970963]" name="endReport" is-config="true" duration-ms="222" started-at="2020-08-19T18:51:47Z" finished-at="2020-08-19T18:51:47Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:apitest.test@6a41eaa2]" name="endReport" is-config="true" duration-ms="781" started-at="2020-09-04T10:41:21Z" finished-at="2020-09-04T10:41:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
